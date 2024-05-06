@@ -1,0 +1,18 @@
+vm_types:
+- cloud_properties:
+    cpu: 8
+    ram: 32768
+    disk: 65536
+    root_disk_size_gb: 25
+    pci_passthroughs:
+    - vendor_id: 0x10de # Nvidia
+      device_id: 0x1eb8 # Tesla T4
+  name: gpu-t4
+- cloud_properties:
+    cpu: 8
+    ram: 16384
+    disk: 65536
+    root_disk_size_gb: 25
+    vgpus:
+    - "grid_t4-16q"
+  name: gpu-grid_t4-16q

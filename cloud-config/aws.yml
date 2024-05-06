@@ -1,0 +1,8 @@
+vm_types:
+- cloud_properties:
+    root_disk:
+      size: 25000
+    ephemeral_disk:
+      size: 40000
+    instance_type: g4dn.xlarge
+  name: gpu-t4

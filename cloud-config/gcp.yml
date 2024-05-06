@@ -1,0 +1,11 @@
+vm_types:
+- cloud_properties:
+    machine_type: n1-standard-8
+    accelerators:
+    - type: "nvidia-tesla-t4"
+      count: 1
+    root_disk_size_gb: 25
+    root_disk_type: pd-ssd
+    ephemeral_disk_type: local-ssd
+    on_host_maintenance: TERMINATE
+  name: gpu-t4
