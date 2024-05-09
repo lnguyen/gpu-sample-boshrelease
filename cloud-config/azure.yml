@@ -1,0 +1,6 @@
+vm_types:
+- cloud_properties:
+    instance_type: Standard_NC4as_T4_v3
+    root_disk:
+      size: 25000
+  name: gpu-t4
